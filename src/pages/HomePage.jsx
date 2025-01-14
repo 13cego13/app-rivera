@@ -7,9 +7,9 @@ const HomePage = () => {
     <div className="homepage">
       <Carousel />
       <div className="homepage-content">
-        <h1>Descubre Rivera, Huila</h1>
+        <h1 className='titulo' >DESCUBRE RIVERA</h1>
         <button className="explore-button" onClick={() => window.location.href = '/categories'}>
-          Explorar Rivera
+          EXPLORAR
         </button>
       </div>
     </div>

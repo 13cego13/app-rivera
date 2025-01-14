@@ -1,54 +1,57 @@
 .categories-page {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .categories-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  
-  .category-card {
-    width: 200px;
-    height: 150px;
-    background-color: #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.3s;
-  }
-  
-  .category-card:hover {
-    transform: scale(1.05);
-    background-color: #e63946;
-    color: white;
-  }
-  
-  .back-button-container {
-    margin-top: 2rem;
-    text-align: center;
-  }
-  
-  .back-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #e63946;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    border: 2px solid transparent;
-    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .back-button:hover {
-    background-color: white;
-    color: #e63946;
-    border-color: #e63946;
-    transform: scale(1.1);
-  }
+  padding: 2rem;
+  text-align: center;
+}
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.category-card {
+  width: 200px;
+  height: 150px;
+  background-color: #4caf50; /* Verde */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  background-color: #388e3c; /* Verde más oscuro */
+}
+
+.back-button-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4caf50; /* Verde */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: #4caf50;
+  border-color: #4caf50;
+  transform: scale(1.1);
+}

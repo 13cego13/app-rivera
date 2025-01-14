@@ -7,7 +7,7 @@ const categories = ['Turismo', 'Gastronomía', 'Artesanías', 'Cultura', 'Natura
 const CategoriesPage = () => {
   return (
     <div className="categories-page">
-      <h1>Categorías de Rivera</h1>
+      <h1>CATEGORIAS</h1>
       <div className="categories-container">
         {categories.map((category, index) => (
           <div className="category-card" key={index}>
