@@ -10,7 +10,7 @@ import FondoPage from '../img/iglesia3.jpg'; // Imagen de fondo
 const categories = [
   { name: 'Restaurantes', image: IconoRestaurante },
   { name: 'Hospedaje', image: IconoHospedaje },
-  { name: 'Centros Esparcimiento', image: IconoEsparcimiento },
+  { name: 'Centros Recreacionales', image: IconoEsparcimiento },
   { name: 'Varios', image: IconoVarios },
 ];
 
