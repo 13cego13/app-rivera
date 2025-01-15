@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import '../styles/CategoriesPage.css';
 import IconoRestaurante from '../img/IconoResturante.jpeg';
 import IconoHospedaje from '../img/IconoHospedaje2.jpeg';
@@ -8,7 +8,7 @@ import IconoVarios from '../img/IconoBares.jpeg';
 import FondoPage from '../img/iglesia3.jpg'; // Imagen de fondo
 
 const categories = [
-  { name: 'Restaurantes', image: IconoRestaurante },
+  { name: 'Restaurantes', image: IconoRestaurante, route: '/categories/restaurantes' },
   { name: 'Hospedaje', image: IconoHospedaje },
   { name: 'Centros Recreacionales', image: IconoEsparcimiento },
   { name: 'Varios', image: IconoVarios },
@@ -26,6 +26,7 @@ const CategoriesPage = () => {
         <h1 className="categoriasTitle">CATEGORÍAS</h1>
         <div className="categories-container">
           {categories.map((category, index) => (
+             <Link to={category.route} key={index} className="category-link">
             <div
               className="category-card"
               key={index}
@@ -33,6 +34,7 @@ const CategoriesPage = () => {
             >
               <h2>{category.name}</h2>
             </div>
+            </Link>
           ))}
         </div>
         <div className="back-button-container">
