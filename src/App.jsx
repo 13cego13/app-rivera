@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import RestaurantesPage from './pages/RestaurantesPage';
 import CategoriesPage from './pages/CategoriesPage';
+import CentrosRecrePage from './pages/CentrosRecrePage';
+import VariosPage from './pages/VariosPage';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/categories" element={<CategoriesPage />} />
       <Route path="/categories/restaurantes" element={<RestaurantesPage />} />
+      <Route path="/categories/centros-recreacionales" element={<CentrosRecrePage />} />
+      <Route path="/categories/varios" element={<VariosPage />} />
     </Routes>
   );
 }
