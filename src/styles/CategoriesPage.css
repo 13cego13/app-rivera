@@ -141,6 +141,10 @@
     margin-top: 10px;
   }
 
+  .category-card h2 {
+    opacity: 1; /* El texto está oculto inicialmente */
+  }
+
   .category-card {
     height: 250px;
     width: 200px;
