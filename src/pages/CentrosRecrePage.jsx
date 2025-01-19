@@ -15,7 +15,6 @@ const subcategories = [
 const CentroRecrePage = () => {
   return (
     <div className="centro-recre-page">
-      {/* Fondo con filtro de desenfoque */}
       <div
         className="centro-recre-background"
         style={{ backgroundImage: `url(${FondoPage})` }}

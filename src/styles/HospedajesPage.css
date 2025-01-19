@@ -1,4 +1,4 @@
-.centro-recre-page {
+.hospedajes-page {
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
   
-  .centro-recre-background {
+  .hospedajes-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,17 +17,17 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    filter: blur(8px); /* Borrosidad aplicada al fondo */
+    filter: blur(8px);
     z-index: -1;
   }
   
-  .centro-recre-overlay {
+  .hospedajes-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,20 +35,20 @@
     z-index: 1;
   }
   
-  .centro-recre-container {
+  .hospedajes-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    z-index: 2; /* Asegura que esté encima del fondo */
+    z-index: 2;
   }
   
-  .centro-recre-card {
+  .hospedajes-card {
     width: 250px;
     height: 293px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    overflow: hidden; 
+    overflow: hidden;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -60,12 +60,12 @@
     transition: transform 0.3s;
   }
   
-  .centro-recre-card:hover {
+  .hospedajes-card:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .centro-recre-card::before {
+  .hospedajes-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -76,7 +76,7 @@
     transition: background-color 0.3s;
   }
   
-  .centro-recre-card h2 {
+  .hospedajes-card h2 {
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -86,30 +86,30 @@
     z-index: 2;
   }
   
-  .centro-recre-back-button-container {
+  .hospedajes-back-button-container {
     margin-top: 2rem;
   }
   
-  .centro-recre-back-button {
+  .hospedajes-back-button {
     display: inline-block;
     padding: 12px 24px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
   }
   
-  .centro-recre-back-button:hover {
+  .hospedajes-back-button:hover {
     background-color: white;
     color: #4caf50;
     border-color: #4caf50;
     transform: scale(1.1);
   }
   
-  .centro-recre-title {
+  .hospedajes-title {
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -118,26 +118,26 @@
   }
   
   @media (max-width: 768px) {
-    .centro-recre-title {
+    .hospedajes-title {
       font-size: 2.5rem;
       text-align: center;
     }
   
-    .centro-recre-card {
+    .hospedajes-card {
       height: 300px;
     }
   
-    .centro-recre-background {
+    .hospedajes-background {
       width: 100%;
-      height: 150%;
+      height: 115%;
     }
   
-    .centro-recre-overlay {
+    .hospedajes-overlay {
       width: 100%;
-      height: 150%;
+      height: 115%;
     }
   
-    .centro-recre-back-button {
+    .hospedajes-back-button {
       font-size: 16px;
       padding: 10px 20px;
     }
