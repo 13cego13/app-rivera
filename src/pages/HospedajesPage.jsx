@@ -13,7 +13,6 @@ const subcategories = [
 const HospedajesPage = () => {
   return (
     <div className="hospedajes-page">
-      {/* Fondo con filtro de desenfoque */}
       <div
         className="hospedajes-background"
         style={{ backgroundImage: `url(${FondoHospedajes})` }}
