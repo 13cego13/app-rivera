@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Variospage.css';
+import '../styles/VariosPage.css';
 import BarIcon from '../img/bares.jpeg'; // Cambia por tu imagen
 import GymIcon from '../img/Gym.jpeg'; // Cambia por tu imagen
 import DiscotecaIcon from '../img/Discoteca.jpeg'; // Cambia por tu imagen
