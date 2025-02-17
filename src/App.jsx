@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import RestaurantesPage from './pages/RestaurantesPage';
 import HospedajesPage from './pages/HospedajesPage';
-import CategoriesPage from './pages/CategoriesPage.jsx';
+import CategoriesPage from './pages/CategoriesPage';
 import CentrosRecrePage from './pages/CentrosRecrePage';
 import VariosPage from './pages/VariosPage';
 
