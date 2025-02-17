@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Restaurantespage.css';
+import '../styles/RestaurantesPage.css';
 import FastFoodIcon from '../img/comida-rapida.jpg'; // Cambia por tu imagen
 import DessertsIcon from '../img/postres.jpg'; // Cambia por tu imagen
 import TraditionalFoodIcon from '../img/tipica.jpg'; // Cambia por tu imagen
